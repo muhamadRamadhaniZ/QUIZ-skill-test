@@ -13,7 +13,7 @@ rline.question('Masukkan bilanagan? ', function (number) {
     for (let index = number-1; index > 0; index--) {
         hasil = hasil * index;
     }
-    console.log(`hasil faktorial bilangan ${number} adalah ${hasil}`);
+    console.log(`hasil faktorial bilangan ${number}! adalah ${hasil}`);
     rline.close();
 });
 
