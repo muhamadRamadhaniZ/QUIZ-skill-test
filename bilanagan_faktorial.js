@@ -6,7 +6,7 @@ const rline = readline.createInterface({
 console.log('selamat di perhitungan bilangan faktorial');
 rline.question('Masukkan bilanagan? ', function (number) {
     if (number == '') {
-        console.log('bilanagan harus diisi!');
+        console.log('bilangan harus diisi!');
         rline.close();
     }
     let hasil = number;
@@ -18,6 +18,6 @@ rline.question('Masukkan bilanagan? ', function (number) {
 });
 
 rline.on('close', function () {
-  console.log('\nBYE BYE !!!');
+  console.log('\nTerimakasih !!!');
   process.exit(0);
 });
