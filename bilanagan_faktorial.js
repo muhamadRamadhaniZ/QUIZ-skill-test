@@ -3,7 +3,7 @@ const rline = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-console.log('selamat di perhitungan bilangan faktorial');
+console.log('Perhitungan bilangan faktorial');
 rline.question('Masukkan bilanagan? ', function (number) {
     if (number == '') {
         console.log('bilangan harus diisi!');
